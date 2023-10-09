@@ -10,6 +10,10 @@ h1 {
 
 }
 
+h1[type="info"]{
+    margin-top:50px;
+}
+
 h2{
     text-align: center;
     font-size: 10px;
@@ -85,22 +89,27 @@ a{
 
 .firstline {
     display: block;
-    margin: 1rem auto;
+    margin: 1rem 40%;
 }
 
 
 label[type="passwort"] {
     display: block;
-    margin-left: 30%;
+    margin-left: 42%;
+    margin-right: auto;
     color: white;
-    padding-top: 10%;
+    padding-top: 5%;
     
+}
+
+input[type="button"]{
+    margin-left:45%;
 }
 
 form[type="entranceform"] {
     margin-top: 100px;
     background: #244597;
-    height: 150px;
+    height: 200px;
 }
 
 body[type="entrance"] {
